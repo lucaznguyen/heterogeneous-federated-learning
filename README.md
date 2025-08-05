@@ -101,7 +101,7 @@ $$
 * **Formula** (FedDF distillation):
 
 $$
-\mathcal{L}_{\text{KD}} = D_{\text{KL}}\left(\text{softmax}\left(\frac{z_{\text{teacher}}}{T}\right), \text{softmax}\left(\frac{z_{\text{student}}}{T}\right)\right)
+L_{\text{KD}} = D_{\text{KL}}\left(\text{softmax}\left(\frac{z_{\text{teacher}}}{T}\right), \text{softmax}\left(\frac{z_{\text{student}}}{T}\right)\right)
 $$
 
 * **Visualization**: Bar chart showing FedDF significantly restores global accuracy despite heterogeneous models.
